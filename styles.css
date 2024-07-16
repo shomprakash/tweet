@@ -25,12 +25,6 @@ h1 {
     white-space: pre-wrap;
 }
 
-@media(min-width: 768px) {
-    h1 {
-        font-size: 111px;
-    }
-}
-
 .buttons {
     display: none;
     margin-top: 20px;
@@ -68,4 +62,28 @@ a {
     content: '|';
     animation: blink 1s step-end infinite;
     color: #C4FA42;
+}
+
+@media(min-width: 768px) {
+    h1 {
+        font-size: 111px;
+    }
+}
+
+@media(max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 320px) {
+    h1 {
+        font-size: 12px;
+    }
 }
